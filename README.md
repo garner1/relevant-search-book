@@ -6,12 +6,12 @@ Relevant Search is all about leveraging Solr and Elasticsearch to build more int
 
 # How to run
 
-1. Have Elasticsearch running
+1. Have Elasticsearch running (requires Docker)
   ```
   make setup-es &&& make start-es
   ```
 
-2. Have a Jupyter server running
+2. Have a Jupyter server running (requires Python >3.5)
   ```
   cd ipython && jupyter notebook
   ```
