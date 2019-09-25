@@ -15,7 +15,7 @@ intelligent search applications with intuitive results!
 
 1. Have Elasticsearch running (requires Docker)
   ```
-  make setup-es && make start-es
+  make start
   ```
 
 2. Have a Jupyter server running (requires Python >3.5)
